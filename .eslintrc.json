@@ -1,0 +1,29 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "standard-with-typescript",
+    "plugin:react/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module",
+    "project": "./tsconfig.json"
+  },
+  "plugins": ["react"],
+  "rules": {
+    // // Use 2 spaces for indentation
+    "indent": ["error", 2],
+    // // Enforce single quotes for strings
+    "quotes": ["error", "single"],
+    // // Require semicolons at the end of statements
+    "semi": ["error", "always"],
+    // // Allow console statements in development
+    "no-console": "off"
+    // // Allow unused variables that start with an underscore
+    // "@typescript-eslint/no-unused-vars": ["warn", { "argsIgnorePattern": "^_" }]
+  }
+}

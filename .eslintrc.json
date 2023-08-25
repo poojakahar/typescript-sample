@@ -22,8 +22,10 @@
     // // Require semicolons at the end of statements
     "semi": ["error", "always"],
     // // Allow console statements in development
-    "no-console": "off"
+    "no-console": "off",
     // // Allow unused variables that start with an underscore
     // "@typescript-eslint/no-unused-vars": ["warn", { "argsIgnorePattern": "^_" }]
+    "react/react-in-jsx-scope": ["off"],
+    "@typescript-eslint/explicit-function-return-type": ["off"]
   }
 }

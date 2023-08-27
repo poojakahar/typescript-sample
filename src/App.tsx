@@ -1,7 +1,8 @@
 import './App.css';
+import { Home } from './container';
 
 function App() {
-  return <div className='bg-red-500 rounded-full font-Inter'>team.flow</div>;
+  return <Home />;
 }
 
 export default App;

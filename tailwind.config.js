@@ -39,6 +39,7 @@ module.exports = {
         ghostWhite: '#FBFAFE',
         charcoal: '#4B3F35',
         honeydew: '#F2F9EB',
+        platinum: '#E1E5EA',
       },
     },
   },

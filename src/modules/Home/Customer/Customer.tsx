@@ -3,10 +3,10 @@ import { Container, InnerContainer, Typography } from '../../../components';
 const Customer = () => {
   return (
     <Container>
-      <InnerContainer className='flex flex-col items-center justify-center mt-[66px] md:mt-[100px] gap-[24px]'>
+      <InnerContainer className='flex flex-col items-center justify-center mt-[66px] md:mt-[100px] gap-[24px] pb-[50px]'>
         <Typography
           variant='h5'
-          className='text-center md:text-[40px] md:leading-[48px] md:text-start lg:w-[60%]'
+          className='text-center md:text-[40px] md:leading-[48px] lg:w-[60%]'
         >
           Why customers love working with us
         </Typography>

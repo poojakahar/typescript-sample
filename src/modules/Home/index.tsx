@@ -1,3 +1,4 @@
+import Customer from './Customer';
 import HeroSection from './HeroSection';
 import HowToWork from './HowToWork';
 import Timeline from './Timeline';
@@ -10,6 +11,7 @@ const Home = () => {
       <Timeline />
       <WorkEasier />
       <HowToWork />
+      <Customer />
     </>
   );
 };
